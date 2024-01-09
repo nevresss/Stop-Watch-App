@@ -1,0 +1,41 @@
+body{
+    background-color: #002930;
+    color: white;
+}
+.stopwatch{
+    width: 90%;
+    max-width: 600px;
+    height: 350px;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url(/images/background.jpg);
+    background-size: cover;
+    box-shadow: 37px 41px 54px 27px rgba(0,0,0,0.8);
+}
+.container{
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.circle-images img{
+    width: 60px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.circle-images img:nth-child(2){
+    width: 80px;
+}
+.circle-images{
+    margin-top: 90px;
+}
+.stopwatch h1{
+    font-size: 70px;
+    font-weight: 300;
+    margin-top: 60px;
+    letter-spacing: 7px;
+}
+.circle-images img:hover{
+    opacity: 0.3;
+    transition: all 0.1s;
+}
